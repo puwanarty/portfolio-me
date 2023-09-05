@@ -1,0 +1,13 @@
+/* todo: import fonts */
+/* Sriracha fonts */
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=fallback');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* todo: hide scrollbar */
+
+body::-webkit-scrollbar {
+  display: none;
+}
